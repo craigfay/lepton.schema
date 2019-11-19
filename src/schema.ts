@@ -1,5 +1,5 @@
 /**
- * Wrapping classes with functions prevents people from inheritance
+ * Wrapping classes with functions prevents inheritance
  */
 export function schema(...args) {
   return new Schema(...args);
